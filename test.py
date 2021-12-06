@@ -1,5 +1,5 @@
-def sort_sides(l_in):
-    l_in.sort(key=lambda i: (i[0]**2 + i[1]**2)  (1/2))
-    return l_in
+import numpy as np
 
-print(sort_sides([(3,4), (1,2), (10,10)]))
+simplelist = [19, 242, 14, 152, 142, 1000]
+
+print(np.mean(simplelist))
